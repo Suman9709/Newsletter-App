@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+   
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3px;
+    /* padding-left: 15px; */
+   
+}
+nav h2{
+    font-size: 3rem;
+    display: flex;
+    color: white;
+    font-weight: 500;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 5px;
+}
+.header-content button{
+    font-size: 1.7rem;
+    /* background-color: rgba(241, 13, 13, 0.753); */
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 5px;
+}
+.signup{
+    background-color: rgba(240, 21, 21, 0.945);
+    color: white;
+}
+
+.signin{
+    background-color: rgba(59, 59, 231, 0.815);
+    color: white;
+}
+.header-content button:hover{
+    background-color: rgb(8, 8, 6);
+}
+.main-section{
+    margin: 80px 5px 50px 5px;
+    display: flex;
+    flex-direction: column;
+}
+main img{
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+footer{
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p{
+    color: white;
+    font-size: 1rem;
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    background-color: rgba(216, 203, 203, 0.781);
+    
+}
+.main-content:hover{
+    background-color: rgb(167, 148, 148);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.content a{
+    text-decoration: none;
+    
+}
+.main-content h1{
+    align-items: center;
+}
+
+.article-content{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
